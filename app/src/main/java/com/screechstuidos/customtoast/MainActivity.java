@@ -18,21 +18,21 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonTop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToastWithImage("This is a top Toast", Gravity.TOP, 0, 0, MainActivity.this);
+                showToastWithImage("This is a top Toast!", Gravity.TOP, 0, 0, MainActivity.this);
             }
         });
 
         findViewById(R.id.buttonCenter).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToastWithImage("This is a center Toast", Gravity.CENTER, 0, 0, MainActivity.this);
+                showToastWithImage("This is a center Toast!", Gravity.CENTER, 0, 0, MainActivity.this);
             }
         });
 
         findViewById(R.id.buttonBottom).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToastWithImage("This is a bottom Toast", Gravity.BOTTOM, 0, 0, MainActivity.this);
+                showToastWithImage("This is a bottom Toast!", Gravity.BOTTOM, 0, 0, MainActivity.this);
             }
         });
     }
